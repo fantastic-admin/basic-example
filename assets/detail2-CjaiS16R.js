@@ -1,0 +1,1 @@
+import{q as c,o as n,e as o,h as s,i as r,m as _,s as e,O as f}from"./index-BImEncZ1.js";const t={};function i(l,d){const a=f;return n(),o("div",null,[s(a,null,{default:r(()=>[_(" 注意看面包屑导航的变化 ")]),_:1})])}typeof e=="function"&&e(t);const u=c(t,[["render",i]]);export{u as default};

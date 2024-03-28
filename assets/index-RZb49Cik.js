@@ -1,0 +1,1 @@
+import{d as a,h as s,m as e,q as t}from"./index-BImEncZ1.js";const u=a({name:"JsxComp",setup(){return()=>s("div",{class:"test"},[e("这是一个用"),s("span",null,[e("JSX")]),e("编写的SFC组件。")])}}),n=t(u,[["__scopeId","data-v-ad3b43b5"]]);export{n as default};

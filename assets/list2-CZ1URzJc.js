@@ -1,0 +1,1 @@
+import{q as c,j as s,o as r,I as _,i as e,h as i,m as f,s as t,O as l}from"./index-BImEncZ1.js";const o={};function m(u,p){const a=s("RouterLink"),n=l;return r(),_(n,null,{default:e(()=>[i(a,{to:{name:"breadcrumbExampleDetail2"}},{default:e(()=>[f(" 查看详情页 ")]),_:1})]),_:1})}typeof t=="function"&&t(o);const x=c(o,[["render",m]]);export{x as default};

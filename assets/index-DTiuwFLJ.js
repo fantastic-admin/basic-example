@@ -1,0 +1,1 @@
+import{q as t,o as s,e as r,X as c}from"./index-BImEncZ1.js";const o={},n={class:"flex items-center text-sm"};function a(e,d){return s(),r("div",n,[c(e.$slots,"default",{},void 0,!0)])}const f=t(o,[["render",a],["__scopeId","data-v-57b61e27"]]);export{f as default};

@@ -1,0 +1,1 @@
+import{y as c,e as s,o as r,M as _,j as e,i,n as f,z as t,Q as l}from"./index-_XRwLhR3.js";const o={};function m(u,p){const n=s("RouterLink"),a=l;return r(),_(a,null,{default:e(()=>[i(n,{to:{name:"breadcrumbExampleDetail1"}},{default:e(()=>[f(" 查看详情页 ")]),_:1})]),_:1})}typeof t=="function"&&t(o);const x=c(o,[["render",m]]);export{x as default};

@@ -1,0 +1,1 @@
+import{y as a,o as c,f as o,i as s,j as r,n as _,z as e,Q as f}from"./index-_XRwLhR3.js";const t={};function i(l,d){const n=f;return c(),o("div",null,[s(n,null,{default:r(()=>[_(" 你能看到这个页面，说明你有访问权限。 ")]),_:1})])}typeof e=="function"&&e(t);const m=a(t,[["render",i]]);export{m as default};

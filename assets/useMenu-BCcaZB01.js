@@ -1,0 +1,1 @@
+import{v as o,x as r,D as i}from"./index-BwVniJVK.js";function c(){const t=o(),s=r(),e=i();function n(u){e.setActived(u),s.settings.menu.switchMainMenuAndPageJump&&t.push(e.sidebarMenusFirstDeepestPath)}return{switchTo:n}}export{c as u};

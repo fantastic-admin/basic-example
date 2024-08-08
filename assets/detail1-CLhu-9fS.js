@@ -1,0 +1,1 @@
+import{i as c,o as n,l as o,e as s,w as r,f as _,y as e,Q as f}from"./index-BwVniJVK.js";const t={};function l(i,d){const a=f;return n(),o("div",null,[s(a,null,{default:r(()=>[_(" 注意看面包屑导航的变化 ")]),_:1})])}typeof e=="function"&&e(t);const m=c(t,[["render",l]]);export{m as default};

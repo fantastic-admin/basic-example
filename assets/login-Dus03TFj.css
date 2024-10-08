@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+.bg-banner[data-v-920cc7d6]{position:fixed;z-index:0;width:100%;height:100%;background:radial-gradient(circle at center,var(--g-container-bg),var(--g-bg))}[data-mode=mobile] .login-box[data-v-920cc7d6]{position:relative;flex-direction:column;justify-content:start;width:100%}[data-mode=mobile] .login-box .login-banner[data-v-920cc7d6]{width:100%;padding:20px 0}[data-mode=mobile] .login-box .login-banner .banner[data-v-920cc7d6]{position:relative;top:inherit;right:inherit;display:inherit;width:100%;max-width:375px;margin:0 auto;transform:translateY(0)}[data-mode=mobile] .login-box .login-form[data-v-920cc7d6]{width:100%}[data-mode=mobile] .copyright[data-v-920cc7d6]{position:relative}.login-box[data-v-920cc7d6]{position:absolute;display:flex;overflow:hidden;background-color:var(--g-container-bg)}[data-mode=pc] .login-box[data-v-920cc7d6]{top:50%;left:50%;border-radius:10px;box-shadow:var(--el-box-shadow);transform:translate(-50%) translateY(-50%)}.login-box .login-banner[data-v-920cc7d6]{position:relative;width:450px;overflow:hidden;background-color:var(--g-bg)}.login-box .login-banner .banner[data-v-920cc7d6]{position:absolute;top:50%;width:100%;transform:translateY(-50%)}.login-box .login-form[data-v-920cc7d6]{width:500px;transition:height .15s ease}.copyright[data-v-920cc7d6]{position:absolute;bottom:0;width:100%;padding:20px;margin:0}.fade-enter-active[data-v-920cc7d6],.fade-leave-active[data-v-920cc7d6]{transition:opacity .15s ease}.fade-enter-from[data-v-920cc7d6],.fade-leave-to[data-v-920cc7d6]{opacity:0}

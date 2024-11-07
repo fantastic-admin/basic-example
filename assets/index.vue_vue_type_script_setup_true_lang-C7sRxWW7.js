@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import u from"./HDropdown-Cvmbv636.js";import{d as h,p as _,o as g,c as f,w as m,e as p,f as c,_ as w,n as x}from"./index-prGsGrIV.js";function S(r){function e(){if(!document.startViewTransition||window.matchMedia("(prefers-reduced-motion: reduce)").matches){r();return}return document.startViewTransition(async()=>{await Promise.resolve(r())})}return{startViewTransition:e}}const C=h({name:"ColorScheme",__name:"index",setup(r){const e=_();function d(a){var i;const{startViewTransition:t}=S(()=>{e.currentColorScheme&&e.setColorScheme(e.currentColorScheme==="dark"?"light":"dark")});(i=t())==null||i.ready.then(()=>{const o=a.clientX,n=a.clientY,s=Math.hypot(Math.max(o,innerWidth-o),Math.max(n,innerHeight-n)),l=[`circle(0px at ${o}px ${n}px)`,`circle(${s}px at ${o}px ${n}px)`];document.documentElement.animate({clipPath:e.settings.app.colorScheme!=="dark"?l:l.reverse()},{duration:300,easing:"ease-out",pseudoElement:e.settings.app.colorScheme!=="dark"?"::view-transition-new(root)":"::view-transition-old(root)"})})}return(a,t)=>{const i=w,o=x,n=u;return g(),f(n,{class:"flex-center cursor-pointer px-2 py-1"},{dropdown:m(()=>[p(o,{modelValue:c(e).settings.app.colorScheme,"onUpdate:modelValue":t[0]||(t[0]=s=>c(e).settings.app.colorScheme=s),options:[{icon:"i-ri:sun-line",label:"",value:"light"},{icon:"i-ri:moon-line",label:"",value:"dark"},{icon:"i-codicon:color-mode",label:"",value:""}],class:"m-3"},null,8,["modelValue"])]),default:m(()=>[p(i,{name:{"":"i-codicon:color-mode",light:"i-ri:sun-line",dark:"i-ri:moon-line"}[c(e).settings.app.colorScheme],onClick:d},null,8,["name"])]),_:1})}}});export{C as _};

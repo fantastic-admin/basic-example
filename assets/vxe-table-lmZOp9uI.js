@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as b,p as v,G as T,bu as S,r as k,a as o,o as E,k as w,e,w as n,b as r,g as s,f as C,_ as h,R as B,Q as M,x as m}from"./index-Ruu4zcVF.js";import N from"./alert-DNOw4bmi.js";const P={style:{"margin-bottom":"0"}},V=b({__name:"vxe-table",setup($){const l=v();T(()=>l.currentColorScheme,()=>{S.setTheme(l.currentColorScheme)},{immediate:!0});const d=k([{id:10001,name:"Test1",role:"Develop",sex:"Man",age:28,address:"test abc"},{id:10002,name:"Test2",role:"Test",sex:"Women",age:22,address:"Guangzhou"},{id:10003,name:"Test3",role:"PM",sex:"Man",age:32,address:"Shanghai"},{id:10004,name:"Test4",role:"Designer",sex:"Women",age:24,address:"Shanghai"}]);function u(i){window.open(i,"_blank")}return(i,t)=>{const p=o("ElTag"),_=h,c=o("ElButton"),x=B,a=o("vxe-column"),f=o("vxe-table",!0),g=M;return E(),w("div",null,[e(N),e(x,{title:"vxe-table"},{content:n(()=>[t[3]||(t[3]=r("p",null,"Element Plus 自带的 el-table 组件大部分时候只能满足简单需求的使用，如果对表格有更加复杂场景需求下的使用，推荐使用 vxe-table 。",-1)),r("p",P,[t[2]||(t[2]=s(" 安装命令：")),e(p,null,{default:n(()=>t[1]||(t[1]=[s("pnpm add xe-utils vxe-table")])),_:1})])]),default:n(()=>[e(c,{onClick:t[0]||(t[0]=y=>u("https://github.com/x-extends/vxe-table"))},{icon:n(()=>[e(_,{name:"i-ep:link"})]),default:n(()=>[t[4]||(t[4]=s(" 访问 vxe-table "))]),_:1})]),_:1}),e(g,null,{default:n(()=>[e(f,{data:C(d)},{default:n(()=>[e(a,{type:"seq",width:"60"}),e(a,{field:"name",title:"Name"}),e(a,{field:"sex",title:"Sex"}),e(a,{field:"age",title:"Age"})]),_:1},8,["data"])]),_:1})])}}});typeof m=="function"&&m(V);export{V as default};

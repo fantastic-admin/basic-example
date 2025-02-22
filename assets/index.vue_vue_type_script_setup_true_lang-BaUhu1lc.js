@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as u,H as m,U as b,s as h,o as p,f as i,b as l,e,V as k,W as f,m as _,X as g,Y as y,Z as v,$ as B,c as x,a as C,a0 as w}from"./index-DOoX2Y4D.js";import{C as V}from"./check-CB1qwcOi.js";const $=u({__name:"Checkbox",props:{defaultChecked:{type:Boolean},checked:{type:[Boolean,String]},disabled:{type:Boolean},required:{type:Boolean},name:{},value:{},id:{},asChild:{type:Boolean},as:{},class:{}},emits:["update:checked"],setup(d,{emit:a}){const s=d,o=a,t=m(()=>{const{class:c,...n}=s;return n}),r=b(t,o);return(c,n)=>(p(),h(e(y),_(e(r),{class:e(g)("peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground",s.class)}),{default:i(()=>[l(e(k),{class:"h-full w-full flex items-center justify-center text-current"},{default:i(()=>[f(c.$slots,"default",{},()=>[l(e(V),{class:"h-4 w-4"})])]),_:3})]),_:3},16,["class"]))}}),M={class:"flex-center-start gap-2"},S=["for"],P=u({name:"FaCheckbox",__name:"index",props:v({disabled:{type:Boolean}},{modelValue:{type:Boolean},modelModifiers:{}}),emits:["update:modelValue"],setup(d){const a=B(d,"modelValue"),s=w();return(o,t)=>(p(),x("div",M,[l(e($),{id:e(s),checked:a.value,"onUpdate:checked":t[0]||(t[0]=r=>a.value=r),disabled:o.disabled},null,8,["id","checked","disabled"]),C("label",{for:e(s),class:"cursor-pointer text-sm"},[f(o.$slots,"default")],8,S)]))}});export{P as _};

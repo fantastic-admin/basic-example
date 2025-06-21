@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as o}from"./index.vue_vue_type_script_setup_true_lang-BkmAiGSI.js";import{bA as r,aq as a}from"./index-ehumLfpb.js";function d(){function s(e){const t=document.createElement("div"),n=r({render(){return a(o,Object.assign({modelValue:!0,icon:"info",closable:!1,border:!1,alignCenter:!0,closeOnClickOverlay:!1,contentClass:"py-0 min-h-auto",footerClass:"p-4",onClosed:()=>{n.unmount()}},e),()=>e.content)}});n.mount(t)}function l(e){const t=document.createElement("div"),n=r({render(){return a(o,Object.assign({modelValue:!0,icon:"success",closable:!1,border:!1,alignCenter:!0,closeOnClickOverlay:!1,contentClass:"py-0 min-h-auto",footerClass:"p-4",onClosed:()=>{n.unmount()}},e),()=>e.content)}});n.mount(t)}function c(e){const t=document.createElement("div"),n=r({render(){return a(o,Object.assign({modelValue:!0,icon:"warning",closable:!1,border:!1,alignCenter:!0,closeOnClickOverlay:!1,contentClass:"py-0 min-h-auto",footerClass:"p-4",onClosed:()=>{n.unmount()}},e),()=>e.content)}});n.mount(t)}function u(e){const t=document.createElement("div"),n=r({render(){return a(o,Object.assign({modelValue:!0,icon:"error",closable:!1,border:!1,alignCenter:!0,closeOnClickOverlay:!1,contentClass:"py-0 min-h-auto",footerClass:"p-4",onClosed:()=>{n.unmount()}},e),()=>e.content)}});n.mount(t)}function i(e){const t=document.createElement("div"),n=r({render(){return a(o,Object.assign({modelValue:!0,closable:!1,border:!1,alignCenter:!0,closeOnClickOverlay:!1,contentClass:"py-0 min-h-auto",footerClass:"p-4",showCancelButton:!0,onClosed:()=>{n.unmount()}},e),()=>e.content)}});n.mount(t)}return{info:s,success:l,warning:c,error:u,confirm:i}}export{d as u};

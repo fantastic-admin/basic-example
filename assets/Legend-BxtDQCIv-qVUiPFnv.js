@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{v as f}from"./vue-data-ui-C3TMMljD.js";import{h as p}from"./Shape-C69a0f29-DJX57GgB.js";import{s as u}from"./_plugin-vue_export-helper-CHgC5LLL-lGy7RumW.js";import{c as i,o as n,V as r,F as m,P as k,J as v,y as h,M as d,b as y,m as b,e as x}from"./index-Xdtw-1bo.js";const S=["id"],$=["onClick","height","width"],z={__name:"Legend",props:{legendSet:{type:Array,default(){return[]}},config:{type:Object,default(){return{}}},id:{type:String,default:""},clickable:{type:Boolean,default:!0}},emits:["clickMarker"],setup(e,{emit:s}){const c=s;function g(t,a){c("clickMarker",{legend:t,i:a})}return(t,a)=>(n(),i("div",{id:e.id,class:"vue-data-ui-legend",style:d(`background:${e.config.backgroundColor};font-size:${e.config.fontSize}px;color:${e.config.color};padding-bottom:${e.config.paddingBottom}px;padding-top:${e.config.paddingTop||12}px;font-weight:${e.config.fontWeight}`)},[r(t.$slots,"legendTitle",{titleSet:e.legendSet},void 0,!0),(n(!0),i(m,null,k(e.legendSet,(o,l)=>(n(),i("div",{class:v({"vue-data-ui-legend-item":!0,active:e.clickable})},[o.shape?(n(),i("svg",{key:0,onClick:C=>g(o,l),height:e.config.fontSize,width:e.config.fontSize,viewBox:"0 0 60 60",style:d(`overflow: visible;opacity:${o.opacity}`)},[y(p,{shape:o.shape,radius:30,stroke:"none",plot:{x:30,y:30},fill:o.color},null,8,["shape","fill"]),r(t.$slots,"legend-pattern",b({ref_for:!0},{legend:o,index:x(f)(o.absoluteIndex)?o.absoluteIndex:l}),void 0,!0)],12,$)):h("",!0),r(t.$slots,"item",{legend:o,index:l},void 0,!0)],2))),256))],12,S))}},M=u(z,[["__scopeId","data-v-f1db6c9f"]]);export{M as I};

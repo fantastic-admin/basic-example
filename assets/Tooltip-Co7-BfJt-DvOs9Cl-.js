@@ -1,0 +1,16 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{m as g}from"./useMouse-AicQS8Vf-Ba4sHr5L.js";import{N as S}from"./vue-data-ui-DrrwkdAa.js";import{r as p,I as y,aj as k,ai as $,H as x,x as C,o as b,c as B,y as F,V as v,a as N,M as Y,J as w,bm as z}from"./index-CYGv8gAZ.js";import"./alert-szVbFbDo.js";function M({tooltip:t,chart:r,clientPosition:l,positionPreference:s="center",defaultOffsetY:f=24,blockShiftY:i=!1}){const e=p(0),n=p(f);if(t&&r){const{width:a,height:c}=t.getBoundingClientRect(),{right:d,left:o,bottom:u}=r.getBoundingClientRect();s==="center"&&(l.x+a/2>d?e.value=-a+(d-l.x):l.x-a/2<o?e.value=-a+(a-(l.x-o)):e.value=-a/2),s==="right"&&(l.x+a>d?e.value=-a+(d-l.x):e.value=0),s==="left"&&(l.x<o+a?e.value=-a+(a-(l.x-o)):e.value=-a),l.y+c>u&&!i&&(n.value=-c-f)}return{top:l.y+n.value,left:l.x+e.value}}const O=["aria-hidden"],T=["innerHTML"],h=.18,H={__name:"Tooltip",props:{backgroundColor:{type:String,default:"#FFFFFF"},color:{type:String,default:"#000000"},content:String,maxWidth:{type:String,default:"300px"},parent:{type:Object},show:{type:Boolean,default:!1},isCustom:{type:Boolean,default:!1},fontSize:{type:[Number,String],default:14},borderRadius:{type:Number,default:4},borderColor:{type:String,default:"#e1e5e8"},borderWidth:{type:Number,default:1},backgroundOpacity:{type:Number,default:100},position:{type:String,default:"center"},offsetY:{type:Number,default:24},blockShiftY:{type:Boolean,default:!1},isFullscreen:{type:Boolean,default:!1},disableSmoothing:{type:Boolean,default:!1}},setup(t){const r=t,l=p(null),{x:s,y:f}=g(r.parent),i=p({x:0,y:0}),e=p({x:0,y:0});let n=null;function a(){if(r.disableSmoothing){e.value.x=i.value.x,e.value.y=i.value.y;return}e.value.x+=(i.value.x-e.value.x)*h,e.value.y+=(i.value.y-e.value.y)*h,n=requestAnimationFrame(a)}y([s,f],([o,u])=>{i.value.x=o,i.value.y=u,r.disableSmoothing&&(e.value.x=o,e.value.y=u)}),y(()=>r.show,async o=>{if(o){const u=s.value,m=f.value;i.value.x=u,i.value.y=m,e.value.x=u,e.value.y=m,await k(),n||a()}else n&&(cancelAnimationFrame(n),n=null)}),$(()=>{n&&cancelAnimationFrame(n)});const c=x(()=>{const o=M({tooltip:l.value,chart:r.parent,clientPosition:e.value,positionPreference:r.position,defaultOffsetY:r.offsetY,blockShiftY:r.blockShiftY});return{top:Math.round(o.top),left:Math.round(o.left)}}),d=x(()=>S(r.backgroundColor,r.backgroundOpacity));return(o,u)=>(b(),C(z,{to:t.isFullscreen?t.parent:"body"},[t.show?(b(),B("div",{key:0,ref_key:"tooltip",ref:l,role:"tooltip","aria-hidden":!t.show,"aria-live":"polite",class:w({"vue-data-ui-custom-tooltip":t.isCustom,"vue-data-ui-tooltip":!t.isCustom}),style:Y(`
+                pointer-events:none;
+                top:${c.value.top}px;
+                left:${c.value.left}px;
+                ${t.isCustom?"":`background:${d.value};color:${t.color};max-width:${t.maxWidth};font-size:${t.fontSize}px`};
+                border-radius:${t.borderRadius}px;
+                border:${t.borderWidth}px solid ${t.borderColor};
+                z-index:2147483647;
+            `)},[v(o.$slots,"tooltip-before"),v(o.$slots,"default"),N("div",{innerHTML:t.content},null,8,T),v(o.$slots,"tooltip-after")],14,O)):F("",!0)],8,["to"]))}};export{H as default};

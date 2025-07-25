@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{p,q as S,bd as g,af as f}from"./index-CYGv8gAZ.js";function T(){const r=p(),d=S(),t=g();function o(){return r.path}function a(e=o()){if(c(e,!1)){const i=o();if(e===i){const n=t.list.findIndex(s=>s.tabId===e);n>0?d.close(t.list[n-1].fullPath):d.close(t.list[n+1].fullPath)}else t.remove(e)}}function u(e=o()){const i=o();if(e!==i){const n=t.list.findIndex(s=>s.tabId===e);d.push(t.list[n].fullPath)}t.removeOtherSide(e)}function x(e=o()){const i=o();if(e!==i){const n=t.list.findIndex(l=>l.tabId===e);t.list.findIndex(l=>l.tabId===i)<n&&d.push(t.list[n].fullPath)}t.removeLeftSide(e)}function I(e=o()){const i=o();if(e!==i){const n=t.list.findIndex(l=>l.tabId===e);t.list.findIndex(l=>l.tabId===i)>n&&d.push(t.list[n].fullPath)}t.removeRightSide(e)}function c(e=o(),i=!0){let n=!0;return t.list.findIndex(l=>l.tabId===e)<0?(n=!1,!i&&f.warning("关闭的标签页不存在",{position:"top-center"})):t.list.length<=1&&(n=!1,!i&&f.warning("当前只有一个标签页，不可关闭",{position:"top-center"})),n}function h(e=o()){return t.list.some(i=>i.tabId!==e)}function b(e=o()){let i=!0;if(e===t.list[0]?.tabId)i=!1;else{const n=t.list.findIndex(s=>s.tabId===e);i=t.list.some((s,l)=>l<n&&s.tabId!==e)}return i}function v(e=o()){let i=!0;if(e===t.list.at(-1)?.tabId)i=!1;else{const n=t.list.findIndex(s=>s.tabId===e);i=t.list.some((s,l)=>l>=n&&s.tabId!==e)}return i}return{getId:o,close,closeById:a,closeOtherSide:u,closeLeftSide:x,closeRightSide:I,checkClose:c,checkCloseOtherSide:h,checkCloseLeftSide:b,checkCloseRightSide:v}}export{T as u};

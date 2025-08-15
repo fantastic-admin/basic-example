@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as i,ak as V,w as b,ad as x,e as u,o as c,c as p,J as f,a2 as v,i as _,a3 as g,a4 as k,x as M,r as w,b as r,O as F,f as T,N as y,A as m}from"./index-BSY0Q56E.js";const B=i({__name:"Textarea",props:{class:{},defaultValue:{},modelValue:{}},emits:["update:modelValue"],setup(s,{emit:a}){const l=s,e=V(l,"modelValue",a,{passive:!0,defaultValue:l.defaultValue});return(t,n)=>b((c(),p("textarea",{"onUpdate:modelValue":n[0]||(n[0]=d=>_(e)?e.value=d:null),class:f(u(v)("flex min-h-20 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",l.class))},null,2)),[[x,u(e)]])}}),$=i({name:"FaTextarea",__name:"index",props:g({disabled:{type:Boolean},class:{}},{modelValue:{},modelModifiers:{}}),emits:["update:modelValue"],setup(s){const a=s,l=k(s,"modelValue");return(o,e)=>(c(),M(u(B),{modelValue:l.value,"onUpdate:modelValue":e[0]||(e[0]=t=>l.value=t),disabled:o.disabled,class:f(a.class)},null,8,["modelValue","disabled","class"]))}}),C=i({__name:"textarea",setup(s){const a=w("");return(l,o)=>{const e=F,t=$,n=y;return c(),p("div",null,[r(e,{title:"文本域",description:"FaTextarea"}),r(n,null,{default:T(()=>[r(t,{modelValue:u(a),"onUpdate:modelValue":o[0]||(o[0]=d=>_(a)?a.value=d:null),placeholder:"请输入内容"},null,8,["modelValue"])]),_:1})])}}});typeof m=="function"&&m(C);export{C as default};

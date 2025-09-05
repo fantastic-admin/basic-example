@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{u as B}from"./vue-data-ui-Cv_lAvHn.js";function T({svgRef:z,fontSize:p,minFontSize:d,sizeRef:w,labelClass:b,labelTypes:f=[]}){let y=null;function g(e){let n=e[0];for(let t=1;t<e.length;t+=1)e[t]<n&&(n=e[t]);return n}function m(e){let n=e[0];for(let t=1;t<e.length;t+=1)e[t]>n&&(n=e[t]);return n}function F(e){const n=e.ownerSVGElement;if(!n)return{x:0,y:0,width:0,height:0};const t=e.getBBox(),o=e.getCTM(),l=[{x:t.x,y:t.y},{x:t.x+t.width,y:t.y},{x:t.x,y:t.y+t.height},{x:t.x+t.width,y:t.y+t.height}].map(s=>{const h=n.createSVGPoint();h.x=s.x,h.y=s.y;const S=o?h.matrixTransform(o):h;return{x:S.x,y:S.y}}),u=l.map(s=>s.x),i=l.map(s=>s.y),r=g(u),a=m(u),x=g(i),c=m(i);return{x:r,y:x,width:a-r,height:c-x}}function v(e,n,t=1){const{x:o,y:l,width:u,height:i}=F(e),r=o>=n.x+t,a=o+u<=n.x+n.width-t,x=l>=n.y+t,c=l+i<=n.y+n.height-t;return r&&a&&x&&c}function A(e,n,t,o,l=120,u=1){let i=t,r=0;for(;r<l&&(e.style.fontSize="".concat(i,"px"),!(v(e,n,u)||i<=o));)i-=.5,r+=1;return i<o?o:i}function q(){const e=z.value;if(!e)return;const[n,t,o,l]=e.getAttribute("viewBox").split(" ").map(Number),u={x:n,y:t,width:o,height:l};f.length||(f=[{selector:b,baseSize:p,minSize:d,sizeRef:w}]),f.map(i=>e.querySelectorAll(i.selector).length).reduce((i,r)=>i+r,0)!==0&&f.forEach(({selector:i,baseSize:r,minSize:a,sizeRef:x})=>{e.querySelectorAll(i).forEach(c=>{const s=B({el:c,bounds:u,currentFontSize:r,minFontSize:a,attempts:200,padding:1}),h=A(c,u,s,a,120,1);c.style.fontSize="".concat(h,"px"),x.value=h})})}function R(){y&&cancelAnimationFrame(y),y=requestAnimationFrame(()=>{y=null,q()})}return{autoSizeLabels:R}}export{T as q};

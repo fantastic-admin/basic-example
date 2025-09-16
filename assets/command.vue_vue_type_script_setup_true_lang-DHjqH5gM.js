@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as m}from"./index.vue_vue_type_script_setup_true_lang-BT1Z0OY-.js";import{d as _,aV as d,K as u,am as l,z as f,o as x,h as C,g as k,l as y,G as V,t as $,u as t}from"./index-Bbax5d9E.js";const w=_({__name:"command",props:{text:{}},setup(e){const a=e,{copy:n,copied:c,isSupported:p}=d();return u(c,o=>{o&&l.success("复制成功",{position:"top-center"})}),(o,s)=>{const r=V,i=m;return x(),f(i,{class:"mx-1 cursor-pointer",onClick:s[0]||(s[0]=b=>t(p)&&t(n)(a.text))},{default:C(()=>[k(r,{name:"i-lucide:copy",class:"size-3"}),y(" "+$(o.text),1)]),_:1})}}});export{w as _};

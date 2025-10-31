@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{ar as p,L as g,c as r,o as e,F as t,R as c,A as l,f as u,z as h}from"./index-DXZKKOp8.js";const x=["x1","y1","x2","y2","stroke","stroke-width"],P=["x1","y1","x2","y2","stroke","stroke-width"],m={__name:"RecursiveLinks",props:{dataset:{type:Array,default:()=>[]},color:{type:String,default:"#DDDDDD"},backgroundColor:{type:String,default:"#FFFFFF"}},setup(a){return p(a,"dataset").value.forEach(n=>{n.nodes&&n.nodes.length>0&&n.nodes.forEach(d=>{d.ancestor=n})}),(n,d)=>{const y=g("RecursiveLinks",!0);return e(),r(t,null,[(e(!0),r(t,null,c(a.dataset,(o,i)=>(e(),r(t,null,[o.polygonPath&&o.polygonPath.coordinates?(e(!0),r(t,{key:0},c(o.polygonPath.coordinates,(s,k)=>(e(),r(t,{key:"node_".concat(i,"_").concat(k)},[o.ancestor&&o.ancestor.polygonPath?(e(),r(t,{key:0},[u("line",{x1:s.x,y1:s.y,x2:o.ancestor.polygonPath.coordinates[0].x,y2:o.ancestor.polygonPath.coordinates[0].y,stroke:a.backgroundColor,"stroke-width":o.circleRadius/1.5},null,8,x),u("line",{x1:s.x,y1:s.y,x2:o.ancestor.polygonPath.coordinates[0].x,y2:o.ancestor.polygonPath.coordinates[0].y,stroke:a.color,"stroke-width":o.circleRadius/2},null,8,P)],64)):l("",!0)],64))),128)):l("",!0)],64))),256)),(e(!0),r(t,null,c(a.dataset,o=>(e(),r(t,null,[o.polygonPath&&o.polygonPath.coordinates?(e(),r(t,{key:0},[o.nodes&&o.nodes.length>0?(e(),h(y,{key:0,dataset:o.nodes,color:a.color,backgroundColor:a.backgroundColor},null,8,["dataset","color","backgroundColor"])):l("",!0)],64)):l("",!0)],64))),256))],64)}}};export{m as default};

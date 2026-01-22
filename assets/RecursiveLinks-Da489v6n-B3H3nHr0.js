@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{e as p,K as x,L as m,c as r,o,F as a,R as u,A as l,f as k,z as P}from"./index-CJB5jCfL.js";const f=["x1","y1","x2","y2","stroke","stroke-width"],v=["x1","y1","x2","y2","stroke","stroke-width"],F={__name:"RecursiveLinks",props:{dataset:{type:Array,default:()=>[]},color:{type:String,default:"#DDDDDD"},backgroundColor:{type:String,default:"#FFFFFF"}},setup(n){const g=n,c=p([]);return x(()=>g.dataset,y=>{const d=y||[];d.forEach(t=>{t.nodes&&t.nodes.length>0&&t.nodes.forEach(e=>{e.ancestor!==t&&(e.ancestor=t)})}),c.value=d},{immediate:!0}),(y,d)=>{const t=m("RecursiveLinks",!0);return o(),r(a,null,[(o(!0),r(a,null,u(c.value,(e,i)=>(o(),r(a,{key:"level_".concat(i)},[e.polygonPath&&e.polygonPath.coordinates?(o(!0),r(a,{key:0},u(e.polygonPath.coordinates,(s,h)=>(o(),r(a,{key:"node_".concat(i,"_").concat(h)},[e.ancestor&&e.ancestor.polygonPath?(o(),r(a,{key:0},[k("line",{x1:s.x,y1:s.y,x2:e.ancestor.polygonPath.coordinates[0].x,y2:e.ancestor.polygonPath.coordinates[0].y,stroke:n.backgroundColor,"stroke-width":e.circleRadius/1.5},null,8,f),k("line",{x1:s.x,y1:s.y,x2:e.ancestor.polygonPath.coordinates[0].x,y2:e.ancestor.polygonPath.coordinates[0].y,stroke:n.color,"stroke-width":e.circleRadius/2},null,8,v)],64)):l("",!0)],64))),128)):l("",!0)],64))),128)),(o(!0),r(a,null,u(c.value,e=>(o(),r(a,{key:"children_".concat(e.uid||e.name)},[e.polygonPath&&e.polygonPath.coordinates?(o(),r(a,{key:0},[e.nodes&&e.nodes.length>0?(o(),P(t,{key:0,dataset:e.nodes,color:n.color,backgroundColor:n.backgroundColor},null,8,["dataset","color","backgroundColor"])):l("",!0)],64)):l("",!0)],64))),128))],64)}}};export{F as default};

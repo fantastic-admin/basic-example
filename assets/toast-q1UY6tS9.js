@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as p,c as m,o as g,g as o,Q as k,h as n,f as C,p as $,l as e,P as v,an as d,C as r}from"./index-CJB5jCfL.js";const F={class:"flex gap-4"},x=p({__name:"toast",setup(T){function i(l){if(l)if(l==="loading1")d.promise(()=>new Promise(t=>{setTimeout(t,2e3)}),{loading:"加载中",success:()=>"加载成功",error:()=>"加载失败",position:"top-right",duration:3e3});else if(l==="loading2"){const t=d.loading("加载中",{position:"top-right",duration:1/0});setTimeout(()=>{d.dismiss(t),d("Fantastic-admin 杰出的管理系统框架",{description:"开箱即用，提供舒适开发体验",position:"top-right",duration:3e3})},2e3)}else d[l]("Fantastic-admin 杰出的管理系统框架",{description:"开箱即用，提供舒适开发体验",position:"top-right",duration:3e3});else d("Fantastic-admin 杰出的管理系统框架",{description:"开箱即用，提供舒适开发体验",position:"top-right",duration:3e3})}return(l,t)=>{const f=k,s=$,u=v;return g(),m("div",null,[o(f,{title:"轻提示",description:"FaToast"}),o(u,null,{default:n(()=>[C("div",F,[o(s,{onClick:t[0]||(t[0]=a=>i())},{default:n(()=>[...t[7]||(t[7]=[e(" 默认 ",-1)])]),_:1}),o(s,{onClick:t[1]||(t[1]=a=>i("success"))},{default:n(()=>[...t[8]||(t[8]=[e(" 成功 ",-1)])]),_:1}),o(s,{onClick:t[2]||(t[2]=a=>i("error"))},{default:n(()=>[...t[9]||(t[9]=[e(" 错误 ",-1)])]),_:1}),o(s,{onClick:t[3]||(t[3]=a=>i("info"))},{default:n(()=>[...t[10]||(t[10]=[e(" 信息 ",-1)])]),_:1}),o(s,{onClick:t[4]||(t[4]=a=>i("warning"))},{default:n(()=>[...t[11]||(t[11]=[e(" 警告 ",-1)])]),_:1}),o(s,{onClick:t[5]||(t[5]=a=>i("loading1"))},{default:n(()=>[...t[12]||(t[12]=[e(" 加载中 1 ",-1)])]),_:1}),o(s,{onClick:t[6]||(t[6]=a=>i("loading2"))},{default:n(()=>[...t[13]||(t[13]=[e(" 加载中 2 ",-1)])]),_:1})])]),_:1})])}}});typeof r=="function"&&r(x);export{x as default};

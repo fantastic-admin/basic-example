@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+.buy-it[data-v-6972bb33]{position:fixed;inset-inline-end:-58px;top:50%;z-index:10;display:flex;flex-direction:column;width:70px;overflow:hidden;border-radius:5px 0 0 5px;transform:translateY(-50%);transition:inset-inline-end .3s}.buy-it.actived[data-v-6972bb33],.buy-it[data-v-6972bb33]:hover{inset-inline-end:0}.buy-it .item[data-v-6972bb33]{display:flex;flex-direction:column;gap:5px;justify-content:center;height:70px;color:#fff;text-align:center;cursor:pointer;border-bottom:1px solid #fff;opacity:.7;transition:.3s}.buy-it .item[data-v-6972bb33]:hover{opacity:1}.buy-it .item[data-v-6972bb33]:last-child{border-bottom:0}.buy-it .item[data-v-6972bb33]:nth-child(1){--un-bg-opacity:1;background-color:rgb(244 114 182 / var(--un-bg-opacity))}.buy-it .item[data-v-6972bb33]:nth-child(2){--un-bg-opacity:1;background-color:rgb(251 146 60 / var(--un-bg-opacity))}.buy-it .item[data-v-6972bb33]:nth-child(3){--un-bg-opacity:1;background-color:rgb(74 222 128 / var(--un-bg-opacity))}.buy-it .item[data-v-6972bb33]:nth-child(4){--un-bg-opacity:1;background-color:rgb(248 113 113 / var(--un-bg-opacity))}.buy-it .item[data-v-6972bb33]:nth-child(5){--un-bg-opacity:1;background-color:rgb(168 162 158 / var(--un-bg-opacity))}.buy-it .item i[data-v-6972bb33]{display:block;margin:0 auto;font-size:20px}.buy-it .item .title[data-v-6972bb33]{display:inline-block;font-size:12px}

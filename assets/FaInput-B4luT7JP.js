@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{A as e,Kt as t,Nt as n,R as r,S as i,Y as a,at as o,mt as s,u as c,w as l,yt as u}from"./vue.runtime.esm-bundler-CGoWWSM3.js";import{b as d,n as f}from"./FaIcon-CpjV0-IG.js";import{t as p}from"./_plugin-vue_export-helper-DW2gd1hL.js";var m=e({__name:`Input`,props:{defaultValue:{},modelValue:{},class:{type:[Boolean,null,String,Object,Array]}},emits:[`update:modelValue`],setup(e,{emit:r}){let i=e,o=d(i,`modelValue`,r,{passive:!0,defaultValue:i.defaultValue});return(e,r)=>s((a(),l(`input`,{"onUpdate:modelValue":r[0]||(r[0]=e=>u(o)?o.value=e:null),class:t(n(f)(`flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50`,i.class))},null,2)),[[c,n(o)]])}}),h=p(e({name:`FaInput`,__name:`index`,props:r({disabled:{type:Boolean},class:{type:[Boolean,null,String,Object,Array]}},{modelValue:{},modelModifiers:{}}),emits:[`update:modelValue`],setup(e){let r=e,s=o(e,`modelValue`);return(o,c)=>(a(),i(n(m),{modelValue:s.value,"onUpdate:modelValue":c[0]||(c[0]=e=>s.value=e),disabled:e.disabled,autocomplete:`off`,class:t(n(f)(`w-[200px]`,r.class))},null,8,[`modelValue`,`disabled`,`class`]))}}),[[`__scopeId`,`data-v-e7ac8986`]]);export{h as t};

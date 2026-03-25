@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{A as e,Nt as t,O as n,Y as r,Yt as i,Z as a,h as o,pt as s,w as c,wt as l,x as u,yt as d}from"./vue.runtime.esm-bundler-CGoWWSM3.js";import{t as f}from"./FaScrollArea-CoSV6Zzx.js";import{t as p}from"./FaSwitch-fO1kPxdT.js";import{t as m}from"./FaPageMain-BxqvsCDB.js";import{t as h}from"./FaPageHeader-C0sPF5up.js";import{t as g}from"./route-block-DBhJxsjT.js";var _={class:`flex-col-start gap-4`},v={class:`flex-col-start gap-4`},y={class:`flex-center-start gap-4`},b={class:`flex-center-start gap-4`},x={class:`flex-center-start`},S=e({__name:`scrollarea`,setup(e){let g=l(!0),S=l(!1);return(e,l)=>{let C=h,w=p,T=f,E=m;return r(),c(`div`,null,[n(C,{title:`滚动区域`,description:`FaScrollArea`}),n(E,null,{default:s(()=>[u(`div`,_,[u(`div`,v,[u(`div`,y,[l[2]||(l[2]=u(`div`,{class:`text-sm`},` 显示滚动条 `,-1)),n(w,{modelValue:t(g),"onUpdate:modelValue":l[0]||(l[0]=e=>d(g)?g.value=e:null)},null,8,[`modelValue`])]),u(`div`,b,[l[3]||(l[3]=u(`div`,{class:`text-sm`},` 显示遮罩 `,-1)),n(w,{modelValue:t(S),"onUpdate:modelValue":l[1]||(l[1]=e=>d(S)?S.value=e:null)},null,8,[`modelValue`])])]),n(T,{scrollbar:t(g),mask:t(S),class:`h-72 w-48 border rounded-md`},{default:s(()=>[(r(),c(o,null,a(20,e=>u(`div`,{key:e,class:`p-4 text-sm`},i(e),1)),64))]),_:1},8,[`scrollbar`,`mask`]),n(T,{horizontal:``,scrollbar:t(g),mask:t(S),class:`w-96 border rounded-md`},{default:s(()=>[u(`div`,x,[(r(),c(o,null,a(20,e=>u(`div`,{key:e,class:`h-16 w-16 flex-center text-sm`},i(e),1)),64))])]),_:1},8,[`scrollbar`,`mask`])])]),_:1})])}}});typeof g==`function`&&g(S);var C=S;export{C as default};

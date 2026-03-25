@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{A as e,C as t,K as n,Kt as r,Nt as i,S as a,Y as o,b as s,pt as c,q as l,st as u,ut as d,wt as f,x as p}from"./vue.runtime.esm-bundler-CGoWWSM3.js";import{u as m}from"./FaIcon-CpjV0-IG.js";import{t as h}from"./settings-770US1Ay.js";import{t as g}from"./_plugin-vue_export-helper-DW2gd1hL.js";import{t as _}from"./Tabbar-pz62G8ib.js";import{t as v}from"./Toolbar-DkpH25vi.js";import{t as y}from"./FaSmartFixedBlock-CmWjFlMl.js";var b=g(e({name:`Topbar`,__name:`index`,setup(e){let g=h(),b=s(()=>g.settings.toolbar.enable&&Object.keys(g.settings.toolbar).some(e=>g.settings.app.routeBaseOn===`filesystem`&&e===`breadcrumb`?!1:g.settings.toolbar[e])),x=f(0),S=f(!1),C=u(`topbarRef`),{height:w}=m(C);n(()=>{window.addEventListener(`scroll`,T)}),l(()=>{window.removeEventListener(`scroll`,T)});function T(){x.value=(document.documentElement||document.body).scrollTop}return d(x,(e,t)=>{S.value=g.settings.topbar.mode===`sticky`&&e>t&&e>w.value}),(e,n)=>{let s=y;return o(),a(s,{position:`top`,class:r({"absolute!":i(g).settings.topbar.mode===`static`})},{default:c(()=>[p(`div`,{ref_key:`topbarRef`,ref:C,class:r([`topbar-container transition-[transform,box-shadow]-300`,{[`topbar-${i(g).settings.topbar.mode}`]:!0,mask:i(x),hide:i(S)}])},[i(g).settings.tabbar.enable?(o(),a(_,{key:0})):t(``,!0),i(b)?(o(),a(v,{key:1})):t(``,!0)],2)]),_:1},8,[`class`])}}}),[[`__scopeId`,`data-v-d919f4fc`]]);export{b as t};

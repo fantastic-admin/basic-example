@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{A as e,D as t,K as n,Kt as r,Nt as i,O as a,S as o,Y as s,p as c,pt as l,q as u,wt as d,x as f}from"./vue.runtime.esm-bundler-CGoWWSM3.js";import{t as p}from"./FaIcon-CpjV0-IG.js";import{t as m}from"./settings-770US1Ay.js";import{t as h}from"./FaButton-DW0q4QCY.js";import{t as g}from"./FaTooltip-BybavDFL.js";import{t as _}from"./_plugin-vue_export-helper-DW2gd1hL.js";import{c as v}from"./index-iSM9h_E1.js";import{t as y}from"./FaKbd-DZoLLSeV.js";import{t as b}from"./useMainPage-Ip8NhsFg.js";var x={class:`flex-col-center gap-2`},S=_(e({name:`PageReload`,__name:`index`,setup(e){let _=m(),S=b(),C=d(!1);n(()=>{v(`f5`,e=>{_.settings.toolbar.pageReload&&(e.preventDefault(),S.reload())})}),u(()=>{v.unbind(`f5`)});function w(){C.value=!0,S.reload()}function T(){location.reload()}return(e,n)=>{let u=y,d=p,m=h,v=g;return s(),o(v,{side:`bottom`,disabled:i(_).os===`mac`},{content:l(()=>[f(`div`,x,[f(`p`,null,[n[2]||(n[2]=t(`按住 `,-1)),a(u,null,{default:l(()=>[...n[1]||(n[1]=[t(`Ctrl`,-1)])]),_:1}),n[3]||(n[3]=t(` 键并点击`,-1))]),n[4]||(n[4]=f(`p`,null,`可切换为浏览器原生刷新`,-1))])]),default:l(()=>[a(m,{variant:`ghost`,size:`icon`,class:`size-9`,onClick:[c(w,[`exact`]),c(T,[`ctrl`,`exact`])],onAnimationend:n[0]||(n[0]=e=>C.value=!1)},{default:l(()=>[a(d,{name:`i-iconoir:refresh-double`,class:r([`size-4`,{animation:i(C)}])},null,8,[`class`])]),_:1})]),_:1},8,[`disabled`])}}}),[[`__scopeId`,`data-v-a9601abd`]]);export{S as t};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{A as e,C as t,Nt as n,O as r,Y as i,Yt as a,h as o,w as s,x as c}from"./vue.runtime.esm-bundler-CGoWWSM3.js";import{t as l}from"./FaIcon-CpjV0-IG.js";import{t as u}from"./settings-770US1Ay.js";var d={key:0,class:`my-4 flex flex-wrap items-center justify-center px-4 text-sm text-secondary-foreground/50`},f={key:0,class:`px-1`},p=[`href`],m={key:1,class:`px-1`},h={key:2,href:`https://beian.miit.gov.cn/`,target:`_blank`,rel:`noopener`,class:`px-1 text-center no-underline transition-colors hover-text-secondary-foreground`},g=e({name:`FaCopyright`,__name:`index`,setup(e){let g=u();return(e,u)=>{let _=l;return n(g).settings.copyright.enable?(i(),s(`footer`,d,[u[0]||(u[0]=c(`span`,{class:`px-1`},`Copyright`,-1)),r(_,{name:`i-ri:copyright-line`,class:`size-5`}),n(g).settings.copyright.dates?(i(),s(`span`,f,a(n(g).settings.copyright.dates),1)):t(``,!0),n(g).settings.copyright.company?(i(),s(o,{key:1},[n(g).settings.copyright.website?(i(),s(`a`,{key:0,href:n(g).settings.copyright.website,target:`_blank`,rel:`noopener`,class:`px-1 text-center no-underline transition-colors hover-text-secondary-foreground`},a(n(g).settings.copyright.company),9,p)):(i(),s(`span`,m,a(n(g).settings.copyright.company),1))],64)):t(``,!0),n(g).settings.copyright.beian?(i(),s(`a`,h,a(n(g).settings.copyright.beian),1)):t(``,!0)])):t(``,!0)}}});export{g as t};

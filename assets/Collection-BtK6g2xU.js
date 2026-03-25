@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{A as e,F as t,N as n,X as r,b as i,bt as a,dt as o,ut as s,wt as c}from"./vue.runtime.esm-bundler-CGoWWSM3.js";import{n as l}from"./Primitive-Cf69jBP5.js";import{t as u}from"./usePrimitiveElement-HMDmm_2J.js";var d=`data-reka-collection-item`;function f(f={}){let{key:p=``,isProvider:m=!1}=f,h=`${p}CollectionProvider`,g;if(m){let e=c(new Map);g={collectionRef:c(),itemMap:e},r(h,g)}else g=t(h);let _=(e=!1)=>{let t=g.collectionRef.value;if(!t)return[];let n=Array.from(t.querySelectorAll(`[${d}]`)),r=Array.from(g.itemMap.value.values()).sort((e,t)=>n.indexOf(e.ref)-n.indexOf(t.ref));return e?r:r.filter(e=>e.ref.dataset.disabled!==``)},v=e({name:`CollectionSlot`,inheritAttrs:!1,setup(e,{slots:t,attrs:r}){let{primitiveElement:i,currentElement:a}=u();return s(a,()=>{g.collectionRef.value=a.value}),()=>n(l,{ref:i,...r},t)}}),y=e({name:`CollectionItem`,inheritAttrs:!1,props:{value:{validator:()=>!0}},setup(e,{slots:t,attrs:r}){let{primitiveElement:i,currentElement:s}=u();return o(t=>{if(s.value){let n=a(s.value);g.itemMap.value.set(n,{ref:s.value,value:e.value}),t(()=>g.itemMap.value.delete(n))}}),()=>n(l,{...r,[d]:``,ref:i},t)}});return{getItems:_,reactiveItems:i(()=>Array.from(g.itemMap.value.values())),itemMapSize:i(()=>g.itemMap.value.size),CollectionSlot:v,CollectionItem:y}}export{f as t};

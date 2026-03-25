@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{A as e,B as t,Nt as n,O as r,S as i,Y as a,pt as o}from"./vue.runtime.esm-bundler-CGoWWSM3.js";import{t as s}from"./FaIcon-CpjV0-IG.js";import{t as c}from"./settings-770US1Ay.js";import{t as l}from"./FaButton-DW0q4QCY.js";var u=e({name:`ColorScheme`,__name:`index`,setup(e){let u=c();function d(e){if(!document.startViewTransition||window.matchMedia(`(prefers-reduced-motion: reduce)`).matches){u.currentColorScheme&&u.setColorScheme(u.currentColorScheme===`dark`?`light`:`dark`);return}let{left:n,top:r,width:i,height:a}=e.target.getBoundingClientRect(),o=n+i/2,s=r+a/2,c=Math.hypot(Math.max(o,innerWidth-o),Math.max(s,innerHeight-s)),l=100*o/innerWidth,d=100*s/innerHeight,f=Math.hypot(innerWidth,innerHeight)/Math.SQRT2,p=100*c/f;document.startViewTransition(async()=>{u.currentColorScheme&&u.setColorScheme(u.currentColorScheme===`dark`?`light`:`dark`),await t()}).ready.then(()=>{let e=[`circle(0% at ${l}% ${d}%)`,`circle(${p}% at ${l}% ${d}%)`];document.documentElement.animate({clipPath:u.currentColorScheme===`light`?e:e.toReversed()},{duration:500,easing:`ease-in-out`,fill:`both`,pseudoElement:u.currentColorScheme===`light`?`::view-transition-new(root)`:`::view-transition-old(root)`})})}return(e,t)=>{let c=s,f=l;return a(),i(f,{variant:`ghost`,size:`icon`,class:`size-9`,onClick:d},{default:o(()=>[r(c,{name:{light:`i-ri:sun-line`,dark:`i-ri:moon-line`}[n(u).currentColorScheme],class:`size-4`},null,8,[`name`])]),_:1})}}});export{u as t};

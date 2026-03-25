@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{F as e,J as t,Mt as n,X as r,b as i,j as a,wt as o}from"./vue.runtime.esm-bundler-CGoWWSM3.js";import{c as s}from"./FaIcon-CpjV0-IG.js";function c(t,n){let i=typeof t==`string`&&!n?`${t}Context`:n,a=Symbol(i);return[n=>{let r=e(a,n);if(r||r===null)return r;throw Error(`Injection \`${a.toString()}\` not found. Component must be used within ${Array.isArray(t)?`one of the following components: ${t.join(`, `)}`:`\`${t}\``}`)},e=>(r(a,e),e)]}function l(){let e=a(),r=o(),c=i(()=>l());t(()=>{c.value!==l()&&n(r)});function l(){return r.value&&`$el`in r.value&&[`#text`,`#comment`].includes(r.value.$el.nodeName)?r.value.$el.nextElementSibling:s(r)}let u=Object.assign({},e.exposed),d={};for(let t in e.props)Object.defineProperty(d,t,{enumerable:!0,configurable:!0,get:()=>e.props[t]});if(Object.keys(u).length>0)for(let e in u)Object.defineProperty(d,e,{enumerable:!0,configurable:!0,get:()=>u[e]});Object.defineProperty(d,`$el`,{enumerable:!0,configurable:!0,get:()=>e.vnode.el}),e.exposed=d;function f(t){if(r.value=t,t&&(Object.defineProperty(d,`$el`,{enumerable:!0,configurable:!0,get:()=>t instanceof Element?t:t.$el}),!(t instanceof Element)&&!Object.prototype.hasOwnProperty.call(t,`$el`))){let n=t.$.exposed,r=Object.assign({},d);for(let e in n)Object.defineProperty(r,e,{enumerable:!0,configurable:!0,get:()=>n[e]});e.exposed=r}}return{forwardRef:f,currentRef:r,currentElement:c}}export{c as n,l as t};

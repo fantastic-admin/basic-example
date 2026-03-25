@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{A as e,D as t,K as n,Nt as r,O as i,Y as a,Yt as o,pt as s,w as c,wt as l,x as u}from"./vue.runtime.esm-bundler-CGoWWSM3.js";import{t as d}from"./FaIcon-CpjV0-IG.js";import{t as f}from"./settings-770US1Ay.js";import{t as p}from"./FaButton-DW0q4QCY.js";import{t as m}from"./route-block-DBhJxsjT.js";import{_ as h,y as g}from"./index-iSM9h_E1.js";var _={class:`absolute left-[50%] top-[50%] flex flex-col items-center justify-between lg-flex-row -translate-x-50% -translate-y-50% lg-gap-12`},v={class:`flex flex-col gap-4`},y=e({__name:`[...all]`,setup(e){let m=g(),y=f(),b=l({inter:NaN,countdown:5});h(()=>{b.value.inter&&window.clearInterval(b.value.inter)}),n(()=>{b.value.inter=window.setInterval(()=>{b.value.countdown--,b.value.countdown===0&&(b.value.inter&&window.clearInterval(b.value.inter),x())},1e3)});function x(){m.push(y.settings.home.fullPath)}return(e,n)=>{let l=d,f=p;return a(),c(`div`,_,[i(l,{name:`404`,class:`text-[300px] lg-text-[400px]`}),u(`div`,v,[n[0]||(n[0]=u(`h1`,{class:`m-0 text-6xl font-sans`},` 404 `,-1)),n[1]||(n[1]=u(`div`,{class:`mx-0 text-xl text-secondary-foreground/50`},` 抱歉，你访问的页面不存在 `,-1)),u(`div`,null,[i(f,{onClick:x},{default:s(()=>[t(o(r(b).countdown)+` 秒后，返回首页 `,1)]),_:1})])])])}}});typeof m==`function`&&m(y);var b=y;export{b as default};

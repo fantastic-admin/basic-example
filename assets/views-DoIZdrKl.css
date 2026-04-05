@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+.hero-enter[data-v-9455915d],.stat-enter[data-v-9455915d]{animation:1.5s cubic-bezier(.16,1,.3,1) both slide-up-9455915d}.card-enter[data-v-9455915d]{animation:1.4s cubic-bezier(.16,1,.3,1) both fade-up-9455915d}@keyframes slide-up-9455915d{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}@keyframes fade-up-9455915d{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.active-scale-98[data-v-9455915d]:active{transform:scale(.98)}

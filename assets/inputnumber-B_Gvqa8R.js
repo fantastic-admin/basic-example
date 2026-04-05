@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{$ as e,$t as t,A as n,D as r,Nt as i,O as a,Y as o,pt as s,w as c,wt as l,yt as u}from"./vue.runtime.esm-bundler-CeJSuZgp.js";var d=n({__name:`inputnumber`,setup(t){let n=l(1),d=l(1),f=l(5),p=l(1),m=l(1);return(t,l)=>{let h=e(`ElDivider`),g=e(`ElInputNumber`);return o(),c(`div`,null,[a(h,{"content-position":`left`},{default:s(()=>[...l[5]||(l[5]=[r(` 基础用法 `,-1)])]),_:1}),a(g,{modelValue:i(n),"onUpdate:modelValue":l[0]||(l[0]=e=>u(n)?n.value=e:null),min:1,max:10,label:`描述文字`},null,8,[`modelValue`]),a(h,{"content-position":`left`},{default:s(()=>[...l[6]||(l[6]=[r(` 禁用状态 `,-1)])]),_:1}),a(g,{modelValue:i(d),"onUpdate:modelValue":l[1]||(l[1]=e=>u(d)?d.value=e:null),disabled:!0},null,8,[`modelValue`]),a(h,{"content-position":`left`},{default:s(()=>[...l[7]||(l[7]=[r(` 步数 `,-1)])]),_:1}),a(g,{modelValue:i(f),"onUpdate:modelValue":l[2]||(l[2]=e=>u(f)?f.value=e:null),step:2},null,8,[`modelValue`]),a(h,{"content-position":`left`},{default:s(()=>[...l[8]||(l[8]=[r(` 精度 `,-1)])]),_:1}),a(g,{modelValue:i(p),"onUpdate:modelValue":l[3]||(l[3]=e=>u(p)?p.value=e:null),precision:2,step:.1,max:10},null,8,[`modelValue`]),a(h,{"content-position":`left`},{default:s(()=>[...l[9]||(l[9]=[r(` 按钮位置 `,-1)])]),_:1}),a(g,{modelValue:i(m),"onUpdate:modelValue":l[4]||(l[4]=e=>u(m)?m.value=e:null),"controls-position":`right`,min:1,max:10},null,8,[`modelValue`])])}}}),f=t({default:()=>p}),p=d;export{f as n,p as t};

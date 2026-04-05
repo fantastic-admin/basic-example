@@ -1,0 +1,9 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./pdf-C4H4o1Cj-QLoEFdsT.js","./preload-helper-CP_bqw3T.js","./dom-to-png-DGvx6i5V-DF9Lnt7j.js","./lib-DMzrGQHK-jyFn2uz3.js","./vue.runtime.esm-bundler-CeJSuZgp.js","./img-CjTQXS0U-BSoWr7Ir.js","./img-CjTQXS0U-DDmloUXy.js"])))=>i.map(i=>d[i]);
+import{wt as e}from"./vue.runtime.esm-bundler-CeJSuZgp.js";import{t}from"./preload-helper-CP_bqw3T.js";function n({elementId:n,fileName:r,canPrint:i=!0,options:a}){let o=e(!1),s=e(!1),c=e(null);async function l(){!i||o.value||(o.value=!0,clearTimeout(c.value),c.value=setTimeout(async()=>{if(i)try{let{default:e}=await t(async()=>{let{default:e}=await import(`./pdf-C4H4o1Cj-QLoEFdsT.js`);return{default:e}},__vite__mapDeps([0,1,2,3,4]),import.meta.url);await e({domElement:document.getElementById(n),fileName:r,orientation:a.orientation,overflowTolerance:a.overflowTolerance,scale:a.scale,aspectRatio:a.aspectRatio??null})}catch(e){console.error(`Error generating PDF:`,e)}finally{o.value=!1}},100))}async function u(){!i||s.value||(s.value=!0,clearTimeout(c.value),c.value=setTimeout(async()=>{if(i)try{let{default:e}=await t(async()=>{let{default:e}=await import(`./img-CjTQXS0U-BSoWr7Ir.js`);return{default:e}},__vite__mapDeps([5,6,2,3,4]),import.meta.url);await e({domElement:document.getElementById(n),fileName:r,format:`png`,options:a})}catch(e){console.error(`Error generating image:`,e)}finally{s.value=!1}},100))}return{generatePdf:l,generateImage:u,isPrinting:o,isImaging:s}}export{n as t};

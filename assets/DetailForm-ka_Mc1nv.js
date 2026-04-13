@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{$ as e,A as t,K as n,Nt as r,O as i,Y as a,et as o,mt as s,pt as c,st as l,w as u,wt as d}from"./vue.runtime.esm-bundler-Bt9XxMFS.js";import{i as f,w as p}from"./components-DTOrNWo4.js";import{u as m}from"./auth-BNVGCmWf.js";var h={list:e=>m.get(`standard_module/list`,{params:e,fake:!0}),detail:e=>m.get(`standard_module/detail`,{params:{id:e},fake:!0}),create:e=>m.post(`standard_module/create`,e,{fake:!0}),edit:e=>m.post(`standard_module/edit`,e,{fake:!0}),delete:e=>m.post(`standard_module/delete`,{id:e},{fake:!0})},g=t({__name:`index`,props:{id:{default:``}},setup(t,{expose:m}){let g=t,_=d(!1),v=l(`formRef`),y=d({id:g.id,title:``}),b=d({title:[{required:!0,message:`请输入标题`,trigger:`blur`}]});n(()=>{y.value.id!==``&&x()});function x(){_.value=!0,h.detail(y.value.id).then(e=>{_.value=!1,y.value.title=e.data.title}).catch(()=>{_.value=!1})}return m({submit(){return new Promise(e=>{v.value?.validate(t=>{t&&(y.value.id===``?h.create(y.value).then(()=>{f.success(`新增成功`),e()}):h.edit(y.value).then(()=>{f.success(`编辑成功`),e()}))})})}}),(t,n)=>{let l=p,d=e(`ElFormItem`),f=e(`ElForm`),m=o(`loading`);return s((a(),u(`div`,null,[i(f,{ref_key:`formRef`,ref:v,model:r(y),rules:r(b),"label-width":`120px`,"label-suffix":`：`},{default:c(()=>[i(d,{label:`标题`,prop:`title`},{default:c(()=>[i(l,{modelValue:r(y).title,"onUpdate:modelValue":n[0]||(n[0]=e=>r(y).title=e),placeholder:`请输入标题`,class:`w-full`},null,8,[`modelValue`])]),_:1})]),_:1},8,[`model`,`rules`])])),[[m,r(_)]])}}});export{h as n,g as t};

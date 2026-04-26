@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{O as e,Y as t,w as n,x as r}from"./vue.runtime.esm-bundler-Bt9XxMFS.js";import{t as i}from"./components-DBOyn06P.js";import{t as a}from"./_plugin-vue_export-helper-1r9tKl2A.js";var o={},s={class:`space-y-4`},c={class:`flex gap-2 items-center`},l={class:`flex gap-2 items-center`},u={class:`flex gap-2 items-center`},d={class:`flex gap-2 items-center`},f={class:`flex gap-2 items-center`};function p(a,o){let p=i;return t(),n(`div`,s,[r(`div`,null,[o[0]||(o[0]=r(`p`,{class:`text-sm text-muted-foreground mb-2`},` Default 风格 `,-1)),r(`div`,c,[e(p,{value:`12.3%`}),e(p,{value:`12.3%`,type:`down`})])]),r(`div`,null,[o[1]||(o[1]=r(`p`,{class:`text-sm text-muted-foreground mb-2`},` Filled 风格 `,-1)),r(`div`,l,[e(p,{value:`+12.3%`,variant:`filled`}),e(p,{value:`-12.3%`,variant:`filled`,type:`down`})])]),r(`div`,null,[o[2]||(o[2]=r(`p`,{class:`text-sm text-muted-foreground mb-2`},` Soft 风格 `,-1)),r(`div`,u,[e(p,{value:`12.3%`,variant:`soft`}),e(p,{value:`12.3%`,variant:`soft`,type:`down`})])]),r(`div`,null,[o[3]||(o[3]=r(`p`,{class:`text-sm text-muted-foreground mb-2`},` Outline 风格 `,-1)),r(`div`,d,[e(p,{value:`12.3%`,variant:`outline`}),e(p,{value:`12.3%`,variant:`outline`,type:`down`})])]),r(`div`,null,[o[4]||(o[4]=r(`p`,{class:`text-sm text-muted-foreground mb-2`},` 尺寸对比 `,-1)),r(`div`,f,[e(p,{value:`12.3%`,size:`small`}),e(p,{value:`12.3%`,size:`medium`}),e(p,{value:`12.3%`,size:`large`})])])])}var m=a(o,[[`render`,p]]);export{m as t};

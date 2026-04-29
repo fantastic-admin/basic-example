@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,C as t,Kt as n,Nt as r,O as i,Y as a,Yt as o,b as s,h as c,pt as l,w as u,wt as d,x as f,yt as p}from"./vue.runtime.esm-bundler-Bt9XxMFS.js";import{U as m}from"./components-C8hqFq5O.js";var h={class:`gap-1 grid min-w-0`},g={class:`text-sm font-medium truncate`},_={key:0,class:`text-xs text-muted-foreground leading-5`},v={class:`text-sm text-muted-foreground`},y=e({__name:`_demo3`,setup(e){let y=d([`focus`,`balanced`]),b=[{label:`专注模式`,value:`focus`,description:`突出主任务，弱化辅助信息，适合录入和审批场景。`},{label:`平衡模式`,value:`balanced`,description:`信息密度与可读性保持平衡，适合作为默认配置。`},{label:`高密度模式`,value:`dense`,description:`在大屏中同时承载更多信息，适合运营与监控看板。`}],x=s(()=>b.filter(e=>y.value.includes(e.value)).map(e=>e.label).join(`、`));return(e,s)=>{let d=m;return a(),u(c,null,[i(d,{modelValue:r(y),"onUpdate:modelValue":s[0]||(s[0]=e=>p(y)?y.value=e:null),options:b,class:`gap-2 md:grid-cols-3`,"option-class":`rounded-xl border border-transparent px-1 py-1`},{option:l(({option:e,checked:r,disabled:i})=>[f(`div`,{class:n([`px-4 py-3 border rounded-xl flex gap-3 w-full transition-colors items-start justify-between`,[r?`border-primary bg-primary/5`:`border-border hover:border-primary/40`,i&&`opacity-60`]])},[f(`div`,h,[f(`div`,g,o(e.label),1),e.description?(a(),u(`div`,_,o(e.description),1)):t(``,!0)]),f(`span`,{class:n([`text-xs font-medium shrink-0`,[r?`text-primary`:`text-muted-foreground`]])},o(r?`已选中`:`可选择`),3)],2)]),_:1},8,[`modelValue`]),f(`div`,v,` 当前模式：`+o(r(x)),1)],64)}}});export{y as t};

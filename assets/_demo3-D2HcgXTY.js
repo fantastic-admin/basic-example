@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{D as e,O as t,Y as n,pt as r,w as i,x as a}from"./vue.runtime.esm-bundler-Bt9XxMFS.js";import{G as o,K as s,M as c}from"./components-C8hqFq5O.js";import{t as l}from"./_plugin-vue_export-helper-1r9tKl2A.js";var u={},d={class:`flex flex-col gap-4 items-start`};function f(l,u){let f=c,p=o,m=s;return n(),i(`div`,d,[t(m,{separator:``},{default:r(()=>[t(p,null,{default:r(()=>[t(f,{name:`i-mdi:eye`,class:`size-4`}),u[0]||(u[0]=e(` 查看详情 `,-1))]),_:1}),t(p,null,{default:r(()=>[t(f,{name:`i-mdi:pencil`,class:`size-4`}),u[1]||(u[1]=e(` 编辑 `,-1))]),_:1}),t(p,null,{default:r(()=>[t(f,{name:`i-mdi:delete`,class:`size-4`}),u[2]||(u[2]=e(` 删除 `,-1))]),_:1})]),_:1}),t(m,{orientation:`vertical`,separator:``},{default:r(()=>[t(p,null,{default:r(()=>[t(f,{name:`i-mdi:eye`,class:`size-4`}),u[3]||(u[3]=e(` 查看详情 `,-1))]),_:1}),t(p,null,{default:r(()=>[t(f,{name:`i-mdi:pencil`,class:`size-4`}),u[4]||(u[4]=e(` 编辑 `,-1))]),_:1}),t(p,null,{default:r(()=>[t(f,{name:`i-mdi:delete`,class:`size-4`}),u[5]||(u[5]=e(` 删除 `,-1))]),_:1})]),_:1}),u[9]||(u[9]=a(`p`,null,`按钮如果为 outline 则无需设置分割线`,-1)),t(m,null,{default:r(()=>[t(p,{variant:`outline`},{default:r(()=>[t(f,{name:`i-mdi:eye`,class:`size-4`}),u[6]||(u[6]=e(` 查看详情 `,-1))]),_:1}),t(p,{variant:`outline`},{default:r(()=>[t(f,{name:`i-mdi:pencil`,class:`size-4`}),u[7]||(u[7]=e(` 编辑 `,-1))]),_:1}),t(p,{variant:`outline`},{default:r(()=>[t(f,{name:`i-mdi:delete`,class:`size-4`}),u[8]||(u[8]=e(` 删除 `,-1))]),_:1})]),_:1})])}var p=l(u,[[`render`,f]]);export{p as t};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{i as e}from"./components-C8hqFq5O.js";import{o as t,s as n}from"./vue-router-BO2q9CeE.js";import{t as r}from"./tabbar-DkG_nR9I.js";function i(){let i=t(),a=n(),o=r();function s(){return i.fullPath}function c(e=s()){if(f(e,!1))if(e===s()){let t=o.list.findIndex(t=>t.tabId===e);t>0?a.close(o.list[t-1].fullPath):a.close(o.list[t+1].fullPath)}else o.remove(e)}function l(e=s()){if(e!==s()){let t=o.list.findIndex(t=>t.tabId===e);a.push(o.list[t].fullPath)}o.removeOtherSide(e)}function u(e=s()){let t=s();if(e!==t){let n=o.list.findIndex(t=>t.tabId===e);o.list.findIndex(e=>e.tabId===t)<n&&a.push(o.list[n].fullPath)}o.removeLeftSide(e)}function d(e=s()){let t=s();if(e!==t){let n=o.list.findIndex(t=>t.tabId===e);o.list.findIndex(e=>e.tabId===t)>n&&a.push(o.list[n].fullPath)}o.removeRightSide(e)}function f(t=s(),n=!0){let r=!0;return o.list.findIndex(e=>e.tabId===t)<0?(r=!1,!n&&e.warning(`关闭的标签页不存在`,{position:`top-center`})):o.list.length<=1&&(r=!1,!n&&e.warning(`当前只有一个标签页，不可关闭`,{position:`top-center`})),r}function p(e=s()){return o.list.some(t=>t.tabId!==e)}function m(e=s()){let t=!0;if(e===o.list[0]?.tabId)t=!1;else{let n=o.list.findIndex(t=>t.tabId===e);t=o.list.some((t,r)=>r<n&&t.tabId!==e)}return t}function h(e=s()){let t=!0;if(e===o.list.at(-1)?.tabId)t=!1;else{let n=o.list.findIndex(t=>t.tabId===e);t=o.list.some((t,r)=>r>=n&&t.tabId!==e)}return t}return{getId:s,closeById:c,closeOtherSide:l,closeLeftSide:u,closeRightSide:d,checkClose:f,checkCloseOtherSide:p,checkCloseLeftSide:m,checkCloseRightSide:h}}export{i as t};

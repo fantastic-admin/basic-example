@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{en as e}from"./vue.runtime.esm-bundler-NA8UCC27.js";import{t}from"./rolldown-runtime-Dy4uBu1J-DK3Fl9T5.js";import{t as n}from"./dom-to-png-rjAIVHxa-Ch7tkXyK.js";var r=e({n:()=>i,t:()=>a}),i=t({default:()=>a});async function a({domElement:e,fileName:t,format:r=`png`,scale:i=2,base64:a=!1,img:o=!1}){if(!e)return Promise.reject(`No element provided`);let s=typeof navigator<`u`&&/^((?!chrome|android).)*safari/i.test(navigator.userAgent);if(await new Promise(e=>setTimeout(e,200)),s)try{await n({container:e,scale:i}),await n({container:e,scale:i}),await n({container:e,scale:i}),await n({container:e,scale:i}),a&&(await n({container:e,scale:i,base64:a}),await n({container:e,scale:i,base64:a}),await n({container:e,scale:i,base64:a}),await n({container:e,scale:i,base64:a}))}catch{}if(a&&o)try{return{imageUri:await n({container:e,scale:i}).then(e=>e),base64:await n({container:e,scale:i,base64:a}).then(e=>e)}}catch(e){console.error(`Error generating image information for the chart`,e)}else if(a)try{return n({container:e,scale:i,base64:a}).then(e=>e)}catch(e){console.error(`Error generating the base64 string of the chart`,e)}else try{let a=await n({container:e,scale:i}),o=document.createElement(`a`);o.href=a,o.download=`${t}.${r}`,document.body.appendChild(o),o.click(),document.body.removeChild(o)}catch(e){throw console.error(`Error generating image:`,e),e}}export{a as n,r as t};

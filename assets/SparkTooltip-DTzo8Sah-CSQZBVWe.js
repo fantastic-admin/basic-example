@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{At as e,B as t,K as n,Q as r,Tt as i,Y as a,Yt as o,b as s,ut as c,w as l}from"./vue.runtime.esm-bundler-NA8UCC27.js";import{Y as u,vt as d}from"./lib-CXicicWN-DhEyN36k.js";import{t as f}from"./_plugin-vue_export-helper-B3ysoDQm-BDNMzG2s.js";var p=f({__name:`SparkTooltip`,props:{svgRef:{type:Object},x:{type:Number,required:!0},y:{type:Number,required:!0},prevX:{type:Number,required:!0},prevY:{type:Number,required:!0},offsetY:{type:Number,default:0},background:{type:String},backgroundOpacity:{type:Number,default:100},borderRadius:{type:Number,default:2},borderWidth:{type:Number,default:0},borderColor:{type:String,default:`#FFFFFF`},color:{type:String},fontSize:{type:Number}},setup(f){let p=f,m=e(p.svgRef),h=i(null),g=i(0),_=i(0),v=i(!1),y=s(()=>d(p.background,p.backgroundOpacity)),b=async()=>{if(!m.value||!h.value)return;let e=u({svgElement:m.value,element:h.value,x:p.x,y:p.y,offsetY:p.offsetY}),n=u({svgElement:m.value,element:h.value,x:p.prevX,y:p.prevY,offsetY:p.offsetY});!e||!n||(v.value=!1,g.value=n.top,_.value=n.left,await t(),setTimeout(()=>{v.value=!0,g.value=e.top,_.value=e.left},50))};return n(b),c(()=>[p.x,p.y,p.prevX,p.prevY],()=>b(),{immediate:!0}),(e,t)=>(a(),l(`div`,{ref_key:`tooltipRef`,ref:h,class:`vue-data-ui-spark-tooltip`,style:o({position:`fixed`,top:`${g.value}px`,left:`${_.value}px`,pointerEvents:`none`,background:y.value,color:p.color,fontSize:`${p.fontSize}px`,borderRadius:`${p.borderRadius}px`,border:`${p.borderWidth}px solid ${p.borderColor}`,transition:v.value?`top 0.3s ease-out, left 0.3s ease-out`:`none`})},[r(e.$slots,`default`,{},void 0,!0)],4))}},[[`__scopeId`,`data-v-57d870b0`]]);export{p as default};

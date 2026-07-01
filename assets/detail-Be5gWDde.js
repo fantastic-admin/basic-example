@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,D as t,O as n,Pt as r,Y as i,pt as a,st as o,w as s,x as c}from"./vue.runtime.esm-bundler-NA8UCC27.js";import{M as l,_ as u,vt as d}from"./src-C-5f1Hx7.js";import{t as f}from"./fixed-bar-CXTsxUfd.js";import{t as p}from"./page-header-CFwAs_0E.js";import{_ as m,g as h,o as g}from"./index-CfymFsM4.js";import{t as _}from"./DetailForm-BHEZ7TNZ.js";var v={class:`max-w-4xl w-full`},y=e({name:`PagesExampleFormModeDetail`,__name:`detail`,setup(e){let y=h(),b=m(),x=o(`formRef`);function S(){x.value?.submit().then(e=>{e&&(g.emit(`get-data-list`),C())})}function C(){b.back({name:`standardModuleExampleList`})}return(e,o)=>{let m=d,h=l,g=p,b=f,w=u;return i(),s(`div`,null,[n(b,{position:`top`,class:`p-0`},{default:a(()=>[n(g,{title:r(y).params.id?`编辑标准模块`:`新增标准模块`,class:`mb-0 border-b-none`},{default:a(()=>[n(h,{variant:`outline`,size:`sm`,class:`rounded-full`,onClick:C},{default:a(()=>[n(m,{name:`i-ep:arrow-left`}),o[0]||(o[0]=t(` 返回 `,-1))]),_:1})]),_:1},8,[`title`])]),_:1}),n(w,null,{default:a(()=>[c(`div`,v,[n(_,{id:r(y).params.id,ref_key:`formRef`,ref:x},null,8,[`id`])])]),_:1}),n(b,{position:`bottom`,class:`flex-center gap-4`},{default:a(()=>[n(h,{onClick:S},{default:a(()=>[...o[1]||(o[1]=[t(` 提交 `,-1)])]),_:1}),n(h,{variant:`outline`,onClick:C},{default:a(()=>[...o[2]||(o[2]=[t(` 取消 `,-1)])]),_:1})]),_:1})])}}});export{y as default};

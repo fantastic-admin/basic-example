@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+.ui-showcase[data-v-283b3dc3]{--showcase-line:color-mix(in oklch, oklch(var(--border)) 82%, transparent)}.preview-card[data-v-283b3dc3]:hover{background:color-mix(in oklch, var(--accent-line) 7%, oklch(var(--background)));border-color:color-mix(in oklch, var(--accent-line) 62%, oklch(var(--border)));transform:translateY(-2px)}.preview-card[data-v-283b3dc3]:focus-visible{background:color-mix(in oklch, var(--accent-line) 7%, oklch(var(--background)));border-color:color-mix(in oklch, var(--accent-line) 62%, oklch(var(--border)));transform:translateY(-2px)}@media (prefers-reduced-motion:reduce){.preview-card[data-v-283b3dc3],.preview-card img[data-v-283b3dc3]{transition:none}.preview-card[data-v-283b3dc3]:hover,.preview-card:hover img[data-v-283b3dc3]{transform:none}.preview-card[data-v-283b3dc3]:focus-visible{transform:none}.preview-card:focus-visible img[data-v-283b3dc3]{transform:none}}

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{Bt as e,M as t,_ as n}from"./src-CLMBPGj1.js";import{B as r}from"./reactivity.esm-bundler-D9OPVc9J.js";import{D as i,E as a,Rt as o,_ as s,b as c,k as l,mt as u,qt as d}from"./runtime-core.esm-bundler-D-xeQwTN.js";import{t as f}from"./fixed-bar-FCQrKer6.js";import{t as p}from"./page-header-CflkT4MF.js";import{h as m,m as h}from"./useApi-CROJJdhE-DcPxsXnv.js";import{o as g}from"./index-DI3aLTMa.js";import{t as _}from"./DetailForm-DrbfD2-F.js";var v={class:`max-w-4xl w-full`},y=l({name:`PagesExampleFormModeDetail`,__name:`detail`,setup(l){let y=h(),b=m(),x=o(`formRef`);function S(){x.value?.submit().then(e=>{e&&(g.emit(`get-data-list`),C())})}function C(){b.back({name:`standardModuleExampleList`})}return(o,l)=>{let m=e,h=t,g=p,b=f,w=n;return u(),c(`div`,null,[i(b,{position:`top`,class:`p-0`},{default:d(()=>[i(g,{title:r(y).params.id?`编辑标准模块`:`新增标准模块`,class:`mb-0 border-b-none`},{default:d(()=>[i(h,{variant:`outline`,size:`sm`,class:`rounded-full`,onClick:C},{default:d(()=>[i(m,{name:`i-ep:arrow-left`}),l[0]||(l[0]=a(` 返回 `,-1))]),_:1})]),_:1},8,[`title`])]),_:1}),i(w,null,{default:d(()=>[s(`div`,v,[i(_,{id:r(y).params.id,ref_key:`formRef`,ref:x},null,8,[`id`])])]),_:1}),i(b,{position:`bottom`,class:`flex-center gap-4`},{default:d(()=>[i(h,{onClick:S},{default:d(()=>[...l[1]||(l[1]=[a(` 提交 `,-1)])]),_:1}),i(h,{variant:`outline`,onClick:C},{default:d(()=>[...l[2]||(l[2]=[a(` 取消 `,-1)])]),_:1})]),_:1})])}}});export{y as default};

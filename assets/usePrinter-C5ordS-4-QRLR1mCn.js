@@ -1,0 +1,9 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./pdf-CuSS-5_j-FPbzH5lY.js","./preload-helper-HclGiUj8.js","./dom-to-png-BbPRUKX6-CWMLafQI.js","./lib-C-QGo8GG-CvPpiVvZ.js","./reactivity.esm-bundler-D9OPVc9J.js","./img-zY7_pJz1-BhhOkdtK.js","./src-CLMBPGj1.js","./defineProperty-BbfpZ9Tg.js","./runtime-core.esm-bundler-D-xeQwTN.js","./runtime-dom.esm-bundler-Dnva3vcP.js","./_plugin-vue_export-helper-BDNMzG2s.js","./src-C_k9xzq7.css","./rolldown-runtime-Dy4uBu1J-DK3Fl9T5.js"])))=>i.map(i=>d[i]);
+import{C as e}from"./reactivity.esm-bundler-D9OPVc9J.js";import{t}from"./preload-helper-HclGiUj8.js";function n({elementId:n,fileName:r,canPrint:i=!0,options:a}){let o=e(!1),s=e(!1),c=e(null);async function l(){!i||o.value||(o.value=!0,clearTimeout(c.value),c.value=setTimeout(async()=>{if(i)try{let{default:e}=await t(async()=>{let{default:e}=await import(`./pdf-CuSS-5_j-FPbzH5lY.js`);return{default:e}},__vite__mapDeps([0,1,2,3,4]),import.meta.url);await e({domElement:document.getElementById(n),fileName:r,orientation:a.orientation,overflowTolerance:a.overflowTolerance,scale:a.scale,aspectRatio:a.aspectRatio??null})}catch(e){console.error(`Error generating PDF:`,e)}finally{o.value=!1}},100))}async function u(){!i||s.value||(s.value=!0,clearTimeout(c.value),c.value=setTimeout(async()=>{if(i)try{let{default:e}=await t(()=>import(`./img-zY7_pJz1-BhhOkdtK.js`).then(e=>e.n).then(e=>e.n),__vite__mapDeps([5,6,7,4,8,9,10,11,12,2,3]),import.meta.url);await e({domElement:document.getElementById(n),fileName:r,format:`png`,scale:a?.scale})}catch(e){console.error(`Error generating image:`,e)}finally{s.value=!1}},100))}return{generatePdf:l,generateImage:u,isPrinting:o,isImaging:s}}export{n as t};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{Bt as e,M as t,_ as n}from"./src-CLMBPGj1.js";import{B as r,C as i}from"./reactivity.esm-bundler-D9OPVc9J.js";import{D as a,Ht as o,St as s,b as c,k as l,mt as u,qt as d}from"./runtime-core.esm-bundler-D-xeQwTN.js";import{t as f}from"./settings-BmQ0nZoD.js";import{t as p}from"./page-header-CflkT4MF.js";import{c as m}from"./index-DI3aLTMa.js";import{t as h}from"./alert-tPTCoU88.js";import{t as g}from"./command-bzTOD6O6.js";var _=l({__name:`vxe-table`,setup(l){let _=f();o(()=>_.currentColorScheme,()=>{m.setTheme(_.currentColorScheme)},{immediate:!0});let v=i([{id:10001,name:`Test1`,role:`Develop`,sex:`Man`,age:28,address:`test abc`},{id:10002,name:`Test2`,role:`Test`,sex:`Women`,age:22,address:`Guangzhou`},{id:10003,name:`Test3`,role:`PM`,sex:`Man`,age:32,address:`Shanghai`},{id:10004,name:`Test4`,role:`Designer`,sex:`Women`,age:24,address:`Shanghai`}]);function y(e){window.open(e,`_blank`)}return(i,o)=>{let l=e,f=t,m=p,_=s(`vxe-column`),b=s(`vxe-table`,!0),x=n;return u(),c(`div`,null,[a(h),a(m,{title:`Vxe Table`},{description:d(()=>[a(g,{text:`pnpm add xe-utils vxe-table`})]),default:d(()=>[a(f,{variant:`outline`,size:`icon`,onClick:o[0]||(o[0]=e=>y(`https://github.com/x-extends/vxe-table`))},{default:d(()=>[a(l,{name:`i-simple-icons:github`})]),_:1})]),_:1}),a(x,null,{default:d(()=>[a(b,{data:r(v)},{default:d(()=>[a(_,{field:`name`,title:`Name`}),a(_,{field:`sex`,title:`Sex`}),a(_,{field:`age`,title:`Age`})]),_:1},8,[`data`])]),_:1})])}}});export{_ as default};

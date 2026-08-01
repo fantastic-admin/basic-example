@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{M as e}from"./src-CLMBPGj1.js";import{D as t,E as n,_ as r,b as i,ct as a,k as o,mt as s,qt as c}from"./runtime-core.esm-bundler-D-xeQwTN.js";import{t as l}from"./settings-BmQ0nZoD.js";import{h as u,m as d}from"./useApi-CROJJdhE-DcPxsXnv.js";import{t as f}from"./tabbar-9kddxF7B.js";var p={class:`flex flex-col h-full`},m={class:`border-block border-dashed flex flex-1`},h={class:`border-inline border-dashed flex-center flex-1 relative`},g={class:`p-4 flex-col-center gap-4 lg:p-12`},_=o({__name:`[...all]`,setup(o){let _=d(),v=u(),y=l(),b=f();a(()=>{y.settings.topbar.tabbar&&b.remove(_.meta.activeMenu||_.fullPath)});function x(){v.push(y.settings.app.home.fullPath)}return(a,o)=>{let l=e;return s(),i(`div`,p,[o[5]||(o[5]=r(`div`,{class:`flex h-[5vh] lg:h-[10vh]`},[r(`div`,{class:`w-[5vh] lg:w-[10vh]`}),r(`div`,{class:`border-inline border-dashed flex-1`}),r(`div`,{class:`w-[5vh] lg:w-[10vh]`})],-1)),r(`div`,m,[o[3]||(o[3]=r(`div`,{class:`w-[5vh] lg:w-[10vh]`},null,-1)),r(`div`,h,[r(`div`,g,[o[1]||(o[1]=r(`h1`,{class:`text-6xl font-bold m-0 lg:text-9xl`},` 404 `,-1)),o[2]||(o[2]=r(`div`,{class:`text-xl text-secondary-foreground/50 mx-0 text-center`},` 哎呀，页面不存在 `,-1)),t(l,{variant:`link`,class:`text-unset`,onClick:x},{default:c(()=>[...o[0]||(o[0]=[n(` 返回首页 `,-1)])]),_:1})])]),o[4]||(o[4]=r(`div`,{class:`w-[5vh] lg:w-[10vh]`},null,-1))]),o[6]||(o[6]=r(`div`,{class:`flex h-[5vh] lg:h-[10vh]`},[r(`div`,{class:`w-[5vh] lg:w-[10vh]`}),r(`div`,{class:`border-inline border-dashed flex-1`}),r(`div`,{class:`w-[5vh] lg:w-[10vh]`})],-1))])}}});export{_ as default};
